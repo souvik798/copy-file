@@ -30,13 +30,15 @@ Run the code using terminal.
 Now the contents are copied.
 
 ## PROGRAM:
-
+~~~
 #Name:Souvik Kundu
 #Reg.No:21001557
 with open('file2.txt','w') as file2:
     with open("file1.txt",'r') as file1:
         for words in file1:
             file2.write(words)
+~~~
+
 
 ### OUTPUT:
 
